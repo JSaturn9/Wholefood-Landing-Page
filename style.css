@@ -23,6 +23,8 @@ body {
     opacity: 75%;
     background-color: black;
 }
+
+
 .youtube-icon {
     display: inline-block;
     max-width: 75px;
@@ -31,6 +33,7 @@ body {
     opacity: 75%;
     background-color: black;
 }
+
 .download-icon {
     display: inline-block;;
     max-width: 75px;
@@ -38,4 +41,7 @@ body {
     padding: 0px 30px 0px 30px;
     opacity: 75%;
     background-color: black;
+}
+.spotify-icon:hover, .youtube-icon:hover, .download-icon:hover {
+    opacity: 100%;  
 }
