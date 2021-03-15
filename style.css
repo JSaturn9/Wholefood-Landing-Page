@@ -1,11 +1,23 @@
 body {
     background-color: black;
+   
 }
+body::after {
+    content: "";
+    background: url(Wholefood_Resources/Splatter.png);
+    opacity: 0.45;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
 
 .wholefood-logo {
     display: block;
     margin: 0 auto;   
-    max-width: 700px;
+    max-width: 775px;
     width: 60%;
     padding-top: 60px;
     
@@ -20,8 +32,8 @@ body {
     max-width: 75px;
     width: 33%;
     padding: 0px 30px 0px 30px;
-    opacity: 75%;
-    background-color: black;
+    opacity: 80%;
+   
 }
 
 
@@ -30,8 +42,8 @@ body {
     max-width: 75px;
     width: 33%;
     padding: 0px 30px 0px 30px;
-    opacity: 75%;
-    background-color: black;
+    opacity: 80%;
+    
 }
 
 .download-icon {
@@ -39,8 +51,8 @@ body {
     max-width: 75px;
     width: 33%;
     padding: 0px 30px 0px 30px;
-    opacity: 75%;
-    background-color: black;
+    opacity: 80%;
+    
 }
 .spotify-icon:hover, .youtube-icon:hover, .download-icon:hover {
     opacity: 100%;  
