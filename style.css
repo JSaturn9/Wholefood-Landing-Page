@@ -21,6 +21,7 @@ body {
     width: 33%;
     padding: 0px 30px 0px 30px;
     opacity: 75%;
+    background-color: black;
 }
 .youtube-icon {
     display: inline-block;
@@ -28,6 +29,7 @@ body {
     width: 33%;
     padding: 0px 30px 0px 30px;
     opacity: 75%;
+    background-color: black;
 }
 .download-icon {
     display: inline-block;;
@@ -35,4 +37,5 @@ body {
     width: 33%;
     padding: 0px 30px 0px 30px;
     opacity: 75%;
+    background-color: black;
 }
